@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ABOUT</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <table border="2">
+                <tr>
+                    <th><h1>Bio Data Pribadi</h1></th>
+                </tr>
+            </table>
+            <table>
+                
+                <tr>
+                    <td><label for="nama">Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" id="nama" required autocomplete minlength></input></td>
+                </tr>
+                <tr>
+                    <td><label for="tgl">Tempat, Tgl Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="text">,<input type="date" id="tgl" name="tgl"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea id="alamat" name="alamat" rows="5" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="no_telp">No. HP</label></td>
+                    <td>:</td>
+                    <td><input type="tel" id="no_telp" name="no_telp" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td><input type="radio" name="gender" value="laki-laki" checked> Laki-laki <input type="radio"
+                            name="gender" value="perempuan"> Perempuan</td>
+                </tr>
+                <tr>
+                    <td><label>Agama: </label></td>
+                    <td>:</td>
+                    <td><select name="agama">
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="budha">Budha</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="hoby">Hoby</label></td>
+                    <td>:</td>
+                    <td><input type="checkbox" name="hoby_1" Value="baca buku"> Baca buku <input type="checkbox"
+                            name="hoby_2" Value="olahraga"> Olahraga <input type="checkbox" name="hoby_3"
+                            Value="melukis"> Main game <input type="checkbox" name="hoby_4" value="Travelling">Travelling</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Kirim"> <input type="reset" value="Reset"> </p>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <button><a href="PORTOFOLIO.HTML">Back</button>
+</body>
+
+</html>
