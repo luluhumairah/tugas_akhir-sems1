@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lulu Asti Humairah</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            background-color: rgb(192, 233, 80);
+             
+        }
+        header{
+            background-color: rgba(233, 245, 169, 0.945);
+            padding: 20px;
+            text-align: center;
+        }
+        .topnav{
+            overflow: hidden;
+            background-color: rgb(241, 177, 80);
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover{
+            background-color: #ddd;
+            color: rgb(223, 15, 15);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portofolio</h1>
+    </header>
+    <div class="topnav">
+        <a href="HOME.HTML">Home</a>
+        <a href="CV.HTML">Download CV</a>
+        <a href="CONTACT.HTML">Contact</a>
+        <a href="ABOUT.HTML">About</a>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <img src="ira.jpg" width="300" height="400" style="border-radius: 50%;" >
+        <h1>Lulu Asti Humairah</h1>
+        <p>Web Developer</p>
+        <br>
+        <p>“All blame is a waste of time. No matter how much fault you find with another, 
+            and regardless of how much you blame him, it will not change you” - Wayne Dyer</p>
+    </div>
+    <div>
+        <div style="max-width: 600px; margin: 3em auto;">
+            <table border="2" bordercolor="black">
+                <thead>
+                    <tr style="background-color: yellow;">
+                        <th>Skill</th>
+                        <th>Pengalaman</th>
+                        <th>Pekerjaan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>HTML (Expert)</li>
+                                <li>CSS (Beginner)</li>
+                                <li>Javascript (Beginner)</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Freelancer di Internet</li>
+                                <li>Leaeder Local Linux Community</li>
+                                <li>Leaeder Local Linux Community</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Guru Honorer</li>
+                                <li>pengajar Les Private</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        </table>
+    </div>
+</body>
+</html>
+
+
